@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+body {
+    margin: 0;
+    height: auto;
+    font-family: 'Lato', sans-serif;
+}
+
+section.logo {
+    display: inline-block;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+nav {
+    display: inline-block;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+header {
+    background-color: white;
+    box-shadow: 0 1px 7px 0 rgba(0, 0, 0, 0.15);
+    height: 80px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+
+    z-index: 100;
+}
+
+li {
+    font-size: 18px;
+    letter-spacing: 0.35px;
+    margin-right: 24px;
+    font-weight: 700;
+}
+
+ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: #002157;
+}
+
+section.hero{
+    max-width: 1920px;
+    margin: auto;
+
+    /* .hero-button is absolute */
+    position: relative;
+}
+
+section.hero img{
+    width: 100%;
+    padding-top: 80px;
+}
+
+section.vtc-highlight{
+    padding-top: 50px;
+}
+
+section.vtc-highlight>h3{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin: 15px;
+}
+
+section.vtc-highlight>hr{
+    border: none;
+    border-top: 5px solid rgb(49, 126, 251);
+    width: 100px;
+}
+
+.project-hightlight{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.project-picture img{
+    width: 450px;
+    height: 450px;
+}
+
+.project-info{
+    text-align: center;
+}
+
+footer ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+}
+
+footer a{
+    color: white;
+    letter-spacing: 0.35px;
+    font-size: 15px;
+}
+
+footer {
+    background-color: rgb(33, 70, 171);
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+}
+
+.copyright{
+    margin-right: 24px;
+}
+
+h4{
+    margin: 0;
+    color: white;   
+}
+
+.logo img{
+    width: 100px;
+    height: 75px;
+}
+
+ /* 5. css for button */
+ 
+ .hero-button{
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+ }
+
+ .hero-button button{
+    width: 220px;
+    height: 50px;
+    border-radius: 92px;
+    background-color: rgba(70, 70, 70, 0.5);
+    color: white;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    border: 2px solid white;
+ }
+
+  .hero-button button:hover{
+    background-color: #002157;
+    cursor: pointer;
+ }
+
+.vtc-member-background{
+    background-image: url(images/vtc-member.png);
+    background-repeat: no-repeat;
+    height: 350px;
+    margin-top: 50px;
+    margin: auto;
+    position: relative;
+}
+
+.vtc-member{
+    position: absolute;
+    width: 100%;
+    top: 70px;
+}
+
+.vtc-member ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+.vtc-member img{
+    width: 80px;
+    height: auto;
+}
+
+.vtc-member h2{
+    color: rgb(69, 106, 154);
+    margin-left: 24px;
+}
